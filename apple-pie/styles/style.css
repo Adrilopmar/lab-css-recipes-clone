@@ -1,6 +1,7 @@
 /* --------------------------------------- General styles */
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .title{
     font-size: 3rem;
@@ -14,6 +15,13 @@
 .standard-text{
     font-size: 1.3rem;
     line-height: 1.5;
+    color: rgb(44, 44, 44);
+}
+img{
+    width: 60%;
+    margin: 2rem auto;
+    min-width: 400px;
+    display: flex;
 }
 /* --------------------------------------------- Header */
 .bg-image{
