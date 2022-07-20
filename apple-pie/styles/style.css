@@ -1,6 +1,7 @@
 *{
     margin: 0;
 }
+/* --------------------------------------------- Header */
 .bg-image{
     display: flex;
     margin: 0;
@@ -12,6 +13,7 @@
     justify-content: center;
     align-items: center;
 }
+/* ------------------------------------------- introduction section  */
 .main-title{
     font-size: 10rem;
     color: #f1f1f1;
@@ -19,15 +21,32 @@
 .introduction{
     height: 350px;
     width: 60%;
-    margin: auto;
+    margin: 4rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-bottom: #000 solid 2px;
+    border-bottom: #0005 solid 2px;
 }
 .description{
     margin: 2rem auto;
     font-size: 1.5rem;
     line-height: 1.5;
+}
+/* -------------------------------------------------- list ingredients section*/
+.ingredients{
+    width: 60%;
+    margin: 4rem auto;
+    border-bottom: #0005 solid 2px;
+    
+}
+.ingredients-title{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.ingredients-list{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    list-style:none;
+    margin-bottom: 4rem;
 }
