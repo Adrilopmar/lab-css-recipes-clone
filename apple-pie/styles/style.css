@@ -1,5 +1,19 @@
+/* --------------------------------------- General styles */
 *{
     margin: 0;
+}
+.title{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.standard-section{
+    width: 60%;
+    margin: 4rem auto;
+    border-bottom: #0005 solid 2px;
+}
+.standard-text{
+    font-size: 1.3rem;
+    line-height: 1.5;
 }
 /* --------------------------------------------- Header */
 .bg-image{
@@ -20,33 +34,27 @@
 }
 .introduction{
     height: 350px;
-    width: 60%;
-    margin: 4rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-bottom: #0005 solid 2px;
 }
 .description{
     margin: 2rem auto;
-    font-size: 1.5rem;
-    line-height: 1.5;
 }
 /* -------------------------------------------------- list ingredients section*/
 .ingredients{
-    width: 60%;
-    margin: 4rem auto;
     border-bottom: #0005 solid 2px;
     
 }
-.ingredients-title{
-    font-size: 3rem;
-    margin-bottom: 2rem;
-}
 .ingredients-list{
-    font-size: 1.5rem;
-    line-height: 1.5;
     list-style:none;
     margin-bottom: 4rem;
+}
+/* -------------------------------------- Directions section */
+.directions{
+    border-bottom: none;
+}
+.directions-text{
+    list-style:decimal;
 }
